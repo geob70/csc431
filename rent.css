@@ -1,5 +1,5 @@
 .cover {
-    background-image: url('images/rover.jpg');
+    background-image: url('pic/jeep_suv_rocks_desert_112567_3568x2033.jpg');
     /* background-position-x: center;
     background-position-y: center; */
     background-size: 101vw 100vh;
@@ -28,7 +28,7 @@
     border-radius: 7px;
     background-color: rgb(182, 173, 173);
     box-sizing: border-box;
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19), 0 17px 50px 0 rgba(0, 0, 0, 0.16);
+    box-shadow: 0 12px 16px 0 black, 0 17px 50px 0 rgba(0, 0, 0, 0.19), 0 17px 50px 0 rgba(0, 0, 0, 0.16);
     top: -540px;
     position: relative;
     opacity: 0.95;
@@ -57,10 +57,11 @@ p {
     width: 50%;
     /* display: inline; */
     margin: -4% 57% 0 8%;
-    top: -640px;
+    top: -680px;
     position: relative;
     z-index: 3;
 }
+
 input[type=date] {
     padding: 10px;
     font-family: cursive;
@@ -69,9 +70,33 @@ input[type=date] {
     margin-right: 5px;
     margin-top: 10px;
 }
-#shift{
+
+#shift {
     margin-right: 45px;
 }
-#shift2{
+
+#shift2 {
     margin-right: 80px;
+}
+
+.search {
+    margin-top: 20px;
+    margin-left: 25%;
+    cursor: pointer;
+    color: white;
+    padding: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border: 1pt solid black;
+    border-radius: 7px;
+    background-color: #4CAF50;
+}
+
+.search:hover {
+    background-color: white;
+    color: #4CAF50;
+    border: 1px solid white;
+    box-sizing: border-box;
+    box-shadow: 0 12px 16px 0 black, 0 17px 50px 0 rgba(0, 0, 0, 0.19), 0 17px 50px 0 rgba(0, 0, 0, 0.16);
+    cursor: pointer;
 }
