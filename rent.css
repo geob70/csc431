@@ -1,0 +1,77 @@
+.cover {
+    background-image: url('images/rover.jpg');
+    /* background-position-x: center;
+    background-position-y: center; */
+    background-size: 101vw 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.area {
+    width: 100%;
+    z-index: 1;
+    /* background-color: rgb(19, 18, 18); */
+    padding: 320px;
+    box-sizing: border-box;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    opacity: 0.6;
+    /* display: none; */
+}
+
+.modalbox {
+    padding: 200px;
+    margin: -1% 75% 0 5%;
+    width: 55%;
+    z-index: 3;
+    border: 1px solid rgb(43, 189, 189);
+    border-radius: 7px;
+    background-color: rgb(182, 173, 173);
+    box-sizing: border-box;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19), 0 17px 50px 0 rgba(0, 0, 0, 0.16);
+    top: -540px;
+    position: relative;
+    opacity: 0.95;
+}
+
+.pickupinp {
+    padding: 10px;
+    /* width: 100px; */
+    font-family: cursive;
+    border: 1pt solid whitesmoke;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+p {
+    font-family: cursive;
+    margin-right: 60px;
+    margin-left: 1%;
+    display: inline;
+}
+
+.pickup {
+    padding: 15px;
+    /* background-color: brown; */
+    width: 50%;
+    /* display: inline; */
+    margin: -4% 57% 0 8%;
+    top: -640px;
+    position: relative;
+    z-index: 3;
+}
+input[type=date] {
+    padding: 10px;
+    font-family: cursive;
+    border: 1pt solid rgb(62, 247, 231);
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+#shift{
+    margin-right: 45px;
+}
+#shift2{
+    margin-right: 80px;
+}

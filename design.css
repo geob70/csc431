@@ -1,0 +1,162 @@
+html {
+    font-size: 80%;
+}
+
+.navbar {
+    background-color: white;
+    border: 1px solid black;
+}
+
+.navbar li {
+    list-style: none;
+    display: inline;
+    border-right: 1px solid black;
+    padding: 13px;
+    /* background-color: #4CAF50;  */
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar li:last-child {
+    border: none;
+}
+
+#ode {
+    border: none;
+}
+
+.navbar li:first-child {
+    margin-right: 25%;
+    border: none;
+}
+
+#breakage {
+    margin-left: 25%;
+}
+
+.container {
+    background-color: rgb(185, 178, 178);
+    width: 70%;
+    margin-left: 15%;
+    /* opacity: 0.6; */
+    border: 1px solid black;
+    box-sizing: border-box;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    /* margin-right: 20%; */
+    padding: 20px;
+}
+
+.navbar ul {
+    width: auto;
+}
+
+.log-form input {
+    border: 1px solid rgb(52, 141, 182);
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 2%;
+}
+
+.log-form input[type=submit] {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: whitesmoke;
+}
+
+.sign-in-form input {
+    border: 1px solid rgb(52, 141, 182);
+    border-radius: 4px;
+    padding: 10px;
+    width: 50%;
+    cursor: pointer;
+    margin-left: 2%;
+}
+
+.sign-in-form input[type=radio] {
+    width: 8%;
+    cursor: pointer;
+    margin-left: 1%;
+}
+
+.sign-in-form input[type=submit] {
+    width: 40%;
+    margin-left: 4%;
+    cursor: pointer;
+    background-color: rgb(109, 109, 212);
+}
+
+.sign-in-form textarea {
+    border: 1px solid rgb(52, 141, 182);
+    border-radius: 6px;
+    padding: 10px;
+    width: 50%;
+    cursor: pointer;
+    margin-left: 2%;
+}
+
+.about {
+    z-index: -3;
+    background-image: url('images/logo.jpg');
+    background-size: 1060px;
+    background-position-y: 13cm;
+    /* background-position-x: 0cm; */
+    background-color: black;
+    /* padding: 160px; */
+    width: auto;
+    /* border: 1px solid black; */
+}
+
+.ontop {
+    z-index: 1;
+    /* padding: 160px; */
+    background-color: black;
+    opacity: 0.6;
+}
+
+.writing {
+    padding: 160px;
+    z-index: 3;
+    background-position-y: 13cm;
+    width: auto;
+}
+
+.contactus input[type=submit] {
+    width: 40%;
+    margin-left: 4%;
+    cursor: pointer;
+    z-index: 3;
+    background-color: rgb(109, 109, 212);
+    box-sizing: border-box;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.contactus input[type=submit]:hover {
+    width: 40%;
+    margin-left: 4%;
+    cursor: pointer;
+    z-index: 3;
+    background-color: rgb(42, 42, 141);
+}
+
+.contactus textarea {
+    border: 1px solid rgb(52, 141, 182);
+    border-radius: 6px;
+    padding: 10px;
+    width: 50%;
+    cursor: pointer;
+    margin-left: 2%;
+}
+
+.contactus input {
+    z-index: 3;
+    border: 1px solid rgb(52, 141, 182);
+    border-radius: 4px;
+    padding: 10px;
+    width: 50%;
+    cursor: pointer;
+    margin-left: 2%;
+}

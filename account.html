@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="design.css">
+</head>
+
+<body>
+<div class="navbar">
+    <ul>
+        <li>
+            <span id="com-name">BURNING RUBBER</span>
+        </li>
+        <li>
+            <a href="index.php">HOME</a>
+        </li>
+        <li>
+            <a href="dashboard.php">RENT</a>
+        </li>
+        <li>
+            <a href="contact.html">CONTACT US</a>
+        </li>
+        <li id="ode">
+            <a href="aboutus.html">ABOUT US</a>
+        </li>
+        <li>
+            <a id="breakage" href="account.html">SIGN UP</a>
+        </li>
+        <li>
+            <a href="account.html">LOGIN</a>
+        </li>
+    </ul>
+</div>
+
+    <div class="container">
+        <form action="login.php" method="POST">
+            <div class="log-form">
+                <p>Already have an account?</p>
+                <p>
+                    <input type="name" placeholder="Username" name="username">
+                    <input type="password" placeholder="Password" name="password">
+                    <input type="submit" name="login" value="LOG IN">
+                </p>
+            </div>
+        </form>
+        <hr>
+        <form action="signin.php" method="POST">
+            <div class="sign-in-form">
+                <p>Don't have an account yet?</p>
+                <p>
+                    <input type="text" placeholder="Enter Your Name" name="username" />
+                </p>
+                <p>
+                    <input type="email" placeholder="Enter Your Email" name="email" />
+                </p>
+                <p>
+                    <input type="password" placeholder="Enter Your Password" name="password" />
+                </p>
+                <p>
+                    <input type="password" placeholder="Confirm Your Password" name="cpassword" />
+                </p>
+                <p>
+                    <input type="radio" name="gender" value="male" />MALE</p>
+                <p>
+                    <input type="radio" name="gender" value="female" />FEMALE</p>
+                <p>
+                    <input type="submit" name="register" value="Create an Account" />
+                </p>
+            </div>
+        </form>
+    </div>
+
+    <div class="footer"></div>
+
+</body>
+
+</html>
