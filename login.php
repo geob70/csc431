@@ -5,6 +5,11 @@
         $username = $_POST['username'];
         $password = $_POST['password'];
 
+    if (empty($_POST['username'])) {
+        echo 'Enter name';
+    }
+
+
 
         //  $ar = array('name' => $name, 'password' => $password, 'email' => $Email, 'gender' => $Gender);
 

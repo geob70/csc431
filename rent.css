@@ -100,3 +100,85 @@ input[type=date] {
     box-shadow: 0 12px 16px 0 black, 0 17px 50px 0 rgba(0, 0, 0, 0.19), 0 17px 50px 0 rgba(0, 0, 0, 0.16);
     cursor: pointer;
 }
+
+#sea {
+    margin-top: 10px;
+}
+
+#spec {
+    background-color: whitesmoke;
+}
+
+label {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.searchbox {
+    padding: 80px;
+    background-color: whitesmoke;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
+    z-index: 1;
+    border: 1px solid black;
+    box-sizing: border-box;
+    box-shadow: 0 12px 16px 0 black, 0 17px 50px 0 rgba(0, 0, 0, 0.19), 0 17px 50px 0 rgba(0, 0, 0, 0.16);
+    position: relative;
+    /* top: -100px; */
+}
+
+.header {
+    padding: 20px;
+    background-color: turquoise;
+    width: 123.4%;
+    margin-top: -15.5%;
+    margin-bottom: 40px;
+    margin-left: -15.5%;
+    z-index: 3;
+    /* top: -640px; */
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+td {
+    border: 1px solid saddlebrown;
+    padding: 40px;
+    width: 100%;
+    z-index: 1;
+    background-color: white ;
+}
+
+td:last-child {
+    background-color: rgb(221, 211, 211);
+}
+
+.rentnow {
+    margin-top: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 1pt solid black;
+    border-radius: 7px;
+    background-color:green;
+}
+
+.rentnow:hover {
+    background-color: rgb(3, 54, 3);
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+    box-sizing: border-box;
+    box-shadow: 0 12px 16px 0 black, 0 17px 50px 0 rgba(0, 0, 0, 0.19), 0 17px 50px 0 rgba(0, 0, 0, 0.16);
+    cursor: pointer;
+}
+body{
+    background-color:rgb(225, 240, 250);
+    width: 100%;
+}
+.body{
+    margin-top: -100px;
+    padding: 200px;
+}

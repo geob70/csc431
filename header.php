@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="design.css">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="design.css">
 </head>
-
 <body>
-    <div class="navbar">
+     <div class="navbar">
         <ul>
             <li>
                 <span id="com-name">BURNING RUBBER</span>
@@ -35,12 +33,5 @@
             </li>
         </ul>
     </div>
-
-    <div class="about">
-        <div class="ontop">
-        </div>
-    </div>
-    <div class="writing">
-        <h1>About Us</h1>
-    </div>
 </body>
+</html>

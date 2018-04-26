@@ -7,6 +7,12 @@
         $password = '';
         $database = 'clients';
 
+
+        $dsn = "mysql:host=$hostname;dbname=$database";
+        $options = array(
+            PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
+        );
+
         #connect to database
 
         try {

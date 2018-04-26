@@ -98,7 +98,7 @@ html {
 }
 
 .about {
-    z-index: -3;
+    z-index: -1;
     background-image: url('images/logo.jpg');
     background-size: 1060px;
     background-position-y: 13cm;
@@ -111,16 +111,24 @@ html {
 
 .ontop {
     z-index: 1;
-    /* padding: 160px; */
+    padding: 160px;
     background-color: black;
     opacity: 0.6;
 }
 
 .writing {
-    padding: 160px;
+    padding: 70px;
     z-index: 3;
-    background-position-y: 13cm;
-    width: auto;
+    color: red;
+    margin-left: 45%;
+    margin-right: 70%;
+    top: -300px;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    background-color: black;
 }
 
 .contactus input[type=submit] {
