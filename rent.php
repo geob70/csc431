@@ -60,3 +60,8 @@ if(isset($_POST['search'])){
         <?php }
     } ?>
 </div>
+<?php
+    if(isset($_POST['rentnow'])){
+        
+    }
+?>
